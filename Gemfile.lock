@@ -1,15 +1,3 @@
-GIT
-  remote: https://github.com/unbuffer/jekyll-theme-chirpy.git
-  revision: 4f631f2787f5f5540030a690c28264dc3f50b273
-  specs:
-    jekyll-theme-chirpy (5.4.0)
-      jekyll (~> 4.3)
-      jekyll-archives (~> 2.2)
-      jekyll-paginate (~> 1.1)
-      jekyll-redirect-from (~> 0.16)
-      jekyll-seo-tag (~> 2.7)
-      jekyll-sitemap (~> 1.4)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -25,7 +13,7 @@ GEM
     eventmachine (1.2.7)
     ffi (1.15.5)
     forwardable-extended (2.6.0)
-    google-protobuf (3.21.8)
+    google-protobuf (3.21.8-x86_64-linux)
     html-proofer (3.19.4)
       addressable (~> 2.3)
       mercenary (~> 0.3)
@@ -64,6 +52,13 @@ GEM
       jekyll (>= 3.8, < 5.0)
     jekyll-sitemap (1.4.0)
       jekyll (>= 3.7, < 5.0)
+    jekyll-theme-chirpy (5.4.0)
+      jekyll (~> 4.3)
+      jekyll-archives (~> 2.2)
+      jekyll-paginate (~> 1.1)
+      jekyll-redirect-from (~> 0.16)
+      jekyll-seo-tag (~> 2.7)
+      jekyll-sitemap (~> 1.4)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     kramdown (2.4.0)
@@ -75,9 +70,7 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
-    mini_portile2 (2.8.1)
-    nokogiri (1.13.9)
-      mini_portile2 (~> 2.8.0)
+    nokogiri (1.13.9-x86_64-linux)
       racc (~> 1.4)
     parallel (1.22.1)
     pathutil (0.16.2)
@@ -111,14 +104,15 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  google-protobuf (~> 3.21, <= 3.21.8)
   html-proofer (~> 3.18)
-  jekyll-theme-chirpy!
-  nokogiri (~> 1.13, <= 1.13.9)
+  jekyll-theme-chirpy (~> 5.4, >= 5.4.0)
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.1)
   webrick (~> 1.7)
+
+RUBY VERSION
+   ruby 3.1.3p185
 
 BUNDLED WITH
    2.4.1
