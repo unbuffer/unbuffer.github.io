@@ -8,7 +8,7 @@ group :test do
   gem "html-proofer", "~> 3.18"
 end
 
-gem "google-protobuf", "~> 3.21","<= 3.21.11"
+gem "google-protobuf", "~> 3.21","<= 3.21.9"
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
