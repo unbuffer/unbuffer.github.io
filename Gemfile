@@ -6,6 +6,8 @@ ruby "3.1.3"
 
 gem "jekyll-theme-chirpy", "~> 5.4", ">= 5.4.0"
 
+gem "jekyll-paginate"
+
 group :test do
   gem "html-proofer", "~> 3.18"
 end
