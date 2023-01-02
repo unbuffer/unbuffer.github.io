@@ -200,3 +200,5 @@ jekyll-archives:
     category: /categories/:name/
 
 gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
+
