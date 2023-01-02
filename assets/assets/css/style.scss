@@ -8,7 +8,7 @@
 $tab-count: {{ site.tabs | size | plus: 1 }}; // plus 1 for home tab
 */
 
-$tab-count: 5
+$tab-count: 5;
 
 @import "{{ site.theme }}";
 
